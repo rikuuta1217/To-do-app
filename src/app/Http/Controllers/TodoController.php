@@ -12,6 +12,8 @@ class TodoController extends Controller
     {
         return view('index');
     }
+<<<<<<< HEAD
+=======
 
     public function app()
     {
@@ -19,4 +21,5 @@ class TodoController extends Controller
     }
 
 
+>>>>>>> main
 }
