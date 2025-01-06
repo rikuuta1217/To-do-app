@@ -12,11 +12,4 @@ class TodoController extends Controller
     {
         return view('index');
     }
-
-    public function app()
-    {
-        return view('/layouts/app');
-    }
-
-
 }
