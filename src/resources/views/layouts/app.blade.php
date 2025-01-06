@@ -15,8 +15,11 @@
                 Todo
             </a>
         </div>
+<<<<<<< HEAD
     </header>
 
+=======
+>>>>>>> main
     <main>
     @yield('content')
     </main>
