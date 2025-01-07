@@ -13,7 +13,7 @@
 
 4..envファイルの作成、設定
 
-5.DB
+5.テーブル作成、実行
 
 6.cssファイルの作成
 
@@ -58,6 +58,11 @@
 < DB_USERNAME=laravel_user
 < DB_PASSWORD=laravel_pass
 
+## 5.テーブル作成、実行
+
+・今回のテーブル概要図
+
+![ER図]()　
 
 
 
