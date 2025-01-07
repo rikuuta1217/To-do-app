@@ -17,11 +17,15 @@
 
 6.cssファイルの作成
 
+### 1.リポジトリの設定
+
 
 
 ### リポジトリの設定
 
-自身のディレクトリに以下のURLから、laravel-docker-template.gitをクローン
+自身のディレクトリに以下のURL (https://github.com/rikuuta1217/To-do-app) から、laravel-docker-template.gitをクローン
+
+
 
 Github : https://github.com/coachtech-material/laravel-docker-template
 
