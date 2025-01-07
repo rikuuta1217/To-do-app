@@ -15,7 +15,9 @@
 
 5.テーブル概要、マイグレーションファイルの実行
 
-6.Model概要、アプリケーションの起動
+6.コントローラー概要
+
+7.Model概要、アプリケーションの起動
 
 ## 1.リポジトリの設定
 
@@ -69,15 +71,22 @@
 
 < $ php artisan migrate:refresh >
 
-## 6.Model概要、アプリケーションの起動
+## 6.コントローラー概要
+
+・app/Http/Controllersのディレクトリ以下にTodocontroller.phpを作成
+
+
+## 7.Model概要、アプリケーションの起動
 
 app/Modelsのデイレクトリ以下にTodo.phpを作成
 
+phpコンテナでアプリケーション起動コマンドを入力
+
+< $ php artisan migrate >
 
 
 
 
 
 
-Github : https://github.com/coachtech-material/laravel-docker-template
 
