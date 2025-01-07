@@ -33,12 +33,23 @@ Dockerの開発環境を以下のコマンドで構築していきます。
 
 PHPコンテナにログインして、パッケージをインストール
 
-phpコンテナのログイン
+phpコンテナにログイン
 < $ ddocker-compose exec php bash >
 < $ docker exec -it "phpのdockerID" bash >
 
 パッケージのインストール
 < $ composer install>
+
+## 4..envファイルのコピー
+
+データベース接続のために.envファイルをコピー
+
+phpコンテナにログイン
+
+< $ cp .env.example .env>
+
+
+
 
 
 
