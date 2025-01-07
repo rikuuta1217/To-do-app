@@ -13,9 +13,9 @@
 
 4..envファイルの作成、設定
 
-5.テーブル作成、実行
+5.テーブル概要、マイグレーションファイルの実行
 
-6.cssファイルの作成
+6.Model概要、アプリケーションの起動
 
 ## 1.リポジトリの設定
 
@@ -58,9 +58,20 @@
 < DB_USERNAME=laravel_user
 < DB_PASSWORD=laravel_pass
 
-## 5.テーブル作成、実行
+## 5.テーブル概要、実行
 
 ・今回のテーブル概要図
+
+![ER図](ER.drawio.png)
+
+・database/migrations以下のディレクトリにあるcreate_todos_table.phpのマイグレーションファイルを確認して、phpコンテナで再マイグレーションを実行
+
+
+< $ php artisan migrate:refresh >
+
+## 6.Model概要、アプリケーションの起動
+
+app/Modelsのデイレクトリ以下にTodo.phpを作成
 
 
 
